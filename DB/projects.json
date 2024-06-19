@@ -1,0 +1,26 @@
+[
+  {
+    "titulo": "360 Feedback",
+    "imagen": "../img/projects/01-360.png",
+    "stack": "Storyline + Moodle",
+    "descripcion": "This resource involves the creation of a template designed to gather feedback from over 50 coworkers. The feedback collected is systematically sent to Moodle, where the data is analyzed to develop action plans aimed at improving individual performance. This streamlined process ensures thorough and actionable insights for continuous development."
+  },
+  {
+    "titulo": "Decision Making",
+    "imagen": "../img/projects/02-decision.png",
+    "stack": "Storyline + Moodle",
+    "descripcion": "This resource was developed to help tech trainees practice decision-making and apply best practices in the workplace. It includes scenarios and exercises designed to enhance critical thinking and problem-solving skills. By engaging with this resource, trainees can improve their ability to make informed decisions, contributing to their overall professional development and performance."
+  },
+  {
+    "titulo": "Leaders Handbook",
+    "imagen": "../img/projects/03-handbook.png",
+    "stack": "Storyline + Moodle",
+    "descripcion": "This handbook was designed for asynchronous learning, complemented by synchronous live session reinforcements. It covers the essential skills that leaders in this particular workplace are required to develop. The combination of self-paced study and live sessions ensures a comprehensive and flexible learning experience, tailored to the needs of current and future leaders."
+  },
+  {
+    "titulo": "AI +  Storyline",
+    "imagen": "../img/projects/04-chatgpt.png",
+    "stack": "Storyline + JavaScript + ChatGPT API",
+    "descripcion": "This resource was a proposal to integrate the ChatGPT API with learning resources. It analyzes the given context and provides feedback on task completion. Also, it sets an 'approved' or 'not approved' status based on whether the specified conditions were met. This integration aims to enhance the learning experience by offering real-time  feedback and assessment."
+  }
+]

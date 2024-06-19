@@ -1,0 +1,33 @@
+#contenedor-tarjetas {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.tarjeta {
+    width: 320px;
+    margin: 10px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    min-height: 350px;
+    border: solid 1px var(--color-secondary);
+    border-radius: 10px;
+    color: var(--color-secondary);
+}
+
+.tarjeta img {
+    width: 60%;
+}
+
+.tarjeta h2 {
+    color: var(--color-text-important);
+}
+
+.tarjeta a,
+.tarjeta a:visited {
+    color: var(--color-primary);
+}

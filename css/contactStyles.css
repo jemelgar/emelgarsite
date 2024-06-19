@@ -1,0 +1,71 @@
+h2 {
+    color: var(--color-text-important);
+}
+
+.contact-picture {
+    display: block;
+    margin: 10px auto;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.email-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 1px var(--color-accent);
+    width: 80%;
+    margin: 30px auto;
+    padding: 10px 15px 15px 15px;
+    border-radius: 8px;
+    position: relative;
+}
+
+.envelope-card,
+.linkedin-card {
+    position: absolute;
+    top: -20px;
+    font-size: 40px;
+    background-color: var(--color-primary);
+    color: var(--color-accent);
+    outline: solid var(--color-primary) 2px;
+
+}
+
+p {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 60px;
+}
+
+.grettings {
+    color: var(--color-primary);
+    font-weight: 700;
+    font-size: 24px;
+    padding: 0 5px;
+    border-radius: 5px;
+    background-color: var(--color-text-important);
+}
+
+.btn-contact {
+    width: 50%;
+}
+
+@media (min-width:768px) {
+    .contact-container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+
+    }
+
+    .contact-container hr {
+        display: none;
+    }
+
+    .email-card {
+        width: 40%;
+        margin: 10px;
+
+    }
+}
